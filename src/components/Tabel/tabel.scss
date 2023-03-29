@@ -1,0 +1,25 @@
+.tabelContainer {
+  .cellWrapper {
+    display: flex;
+    align-items: center;
+
+    .image {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+  }
+  .status {
+    padding: 5px;
+    border-radius: 5px;
+
+    &.Approved {
+      color: rgb(255, 255, 255);
+      background-color: rgba(15, 148, 3, 0.849);
+    }
+    &.Pending {
+      color: rgb(255, 255, 255);
+      background-color: rgb(228, 149, 3);
+    }
+  }
+}
